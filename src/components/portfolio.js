@@ -31,7 +31,7 @@ const Portfolio = () => {
         </div>
         </div>
         <div className='cell small-6'>
-        <div className='card'>
+        <div className='card' style={{marginBottom: '50px'}}>
           <div className='card-section'>
             <h4>Weather Dashboard</h4>
           </div>
@@ -44,7 +44,7 @@ const Portfolio = () => {
         </div>
         </div>
         <div className='cell small-6'>
-        <div className='card'>
+        <div className='card' style={{marginBottom: '50px'}}>
           <div className='card-section'>
             <h4>Note Taker</h4>
           </div>
