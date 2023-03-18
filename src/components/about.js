@@ -2,29 +2,30 @@ import React from 'react';
 
 const About = () => {
     return (
-            <div className="d-flex justify-content-center flex-column flex-sm-row">
-                <h3>About Me</h3>
-              <p>I am a Full Stack Developer with frontend and backend experience. I am seeking a role that will utilize my current development experience, and will push me to continue learning and broadening my development skills. </p>
-              <h3>Skills</h3>
+    <div> 
+    <div className='grid-x align-center' style={{height: '5000'}}>
+    <div className='cell small-6'>
+        <div className='card'>
+          <div className='card-section'>
+              <p>Hello! My name is Joshua Lemmond. I am a Full Stack Developer with frontend and backend experience. I am seeking a role that will utilize my current development experience, and will push me to continue learning and broadening my development skills. </p>
+              <h3>Technologies I've used</h3>
               <ul className="bulletedList">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-                <li>Foundation</li>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>MySQL</li>
-                <li>Sequelize</li>
-                <li>MongoDB</li>
+                 <img width={25} height={25} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=''/> HTML
+                 <img width={25} height={25} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=''/> CSS
+                 <img width={25} height={25} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt=''/> Bootstrap
+                 <img width={25} height={25} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/foundation/foundation-original.svg" alt=''/> Foundation
+                 <img width={25} height={25} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt=''/> JavaScript
+                 <img width={25} height={25} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt=''/> Node.js
+                 <img width={25} height={25} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt=''/> MySQL
+                 <img width={25} height={25} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt='' /> Sequelize
+                 <img width={25} height={25} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt='' />MongoDB
+                 <img width={25} height={25} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt='' /> React
               </ul>
-              <h3>My Links</h3>
-              <ul className="vertical menu">
-                <li><a href="mailto:joshualemmond@gmail.com" target="_blank" rel="noreferrer"><i className="fi-list fa-solid fa-envelope"></i> Email</a></li>
-                <li><a href="https://github.com/Joshvuh" target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i> Github</a></li>
-                <li><a href="https://www.linkedin.com/in/joshualemmond/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i> LinkedIn</a></li>
-              </ul>
-              </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
     )
 };
 

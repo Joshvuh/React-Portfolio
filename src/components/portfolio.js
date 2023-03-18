@@ -3,8 +3,9 @@ import React from 'react';
 const Portfolio = () => {
     return (
         <div>
-        <div className='row container'>
-        <div className='card' style={{width: '500'}}>
+        <div className='grid-x'>
+        <div className='cell small-6'>
+        <div className='card'>
           <div className='card-section'>
             <h4>ChatterHub</h4>
           </div>
@@ -15,7 +16,9 @@ const Portfolio = () => {
             <a href='https://github.com/Joshvuh/ChatterHub' target='_blank' rel='noreferrer'><i className='fa-brands fa-github'></i> Github Repo</a>
           </div>
         </div>
-        <div className='card' style={{width: '500'}}>
+        </div>
+        <div className='cell small-6'>
+        <div className='card'>
           <div className='card-section'>
             <h4>Movie & Beer Roulette</h4>
           </div>
@@ -26,8 +29,9 @@ const Portfolio = () => {
             <a href='https://github.com/Joshvuh/Movie-Beer-Roulette' target='_blank' rel='noreferrer'><i className='fa-brands fa-github'></i> Github Repo</a>
           </div>
         </div>
-        <div style={{flexBasis: '100%', height: 0}}></div>
-        <div className='card' style={{width: '500'}}>
+        </div>
+        <div className='cell small-6'>
+        <div className='card'>
           <div className='card-section'>
             <h4>Weather Dashboard</h4>
           </div>
@@ -38,7 +42,9 @@ const Portfolio = () => {
             <a href='https://github.com/Joshvuh/Weather-Dashboard' target='_blank' rel='noreferrer'><i className='fa-brands fa-github'></i> Github Repo</a>
           </div>
         </div>
-        <div className='card' style={{width: '500'}}>
+        </div>
+        <div className='cell small-6'>
+        <div className='card'>
           <div className='card-section'>
             <h4>Note Taker</h4>
           </div>
@@ -48,6 +54,7 @@ const Portfolio = () => {
             <p>Note taking app built using Express routes to create, read, and delete notes.</p>
             <a href='https://github.com/Joshvuh/Note-Taker' target='_blank' rel='noreferrer'><i className='fa-brands fa-github'></i> Github Repo</a>
           </div>
+        </div>
         </div>
       </div>
       </div>

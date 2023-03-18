@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Colors, ButtonGroup, Sizes } from 'react-foundation';
+import { Button, Colors, ButtonGroup } from 'react-foundation';
 
 const Header = () => {
   return (
   <div class="top-bar">
+  <div class="top-bar-left"> Joshua Lemmond</div>
   <div class="top-bar-right">
   <ButtonGroup>
     <Link to="/">
