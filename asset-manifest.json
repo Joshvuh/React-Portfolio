@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.3de2f7d7.css",
-    "main.js": "/React-Portfolio/static/js/main.ee848df7.js",
+    "main.js": "/React-Portfolio/static/js/main.30104652.js",
     "static/media/elany-and-i.JPG": "/React-Portfolio/static/media/elany-and-i.42a63f4350ed2dbc7ca3.JPG",
     "static/media/firefox_dM6785JOGd.jpg": "/React-Portfolio/static/media/firefox_dM6785JOGd.018ae4c27cadd8026d9b.jpg",
     "static/media/Joshua-Lemmond-Resume.pdf": "/React-Portfolio/static/media/Joshua-Lemmond-Resume.f1e6d74fdcd5b04396b7.pdf",
@@ -10,10 +10,10 @@
     "static/media/notetaker.png": "/React-Portfolio/static/media/notetaker.1b56ea930f89df8afed1.png",
     "index.html": "/React-Portfolio/index.html",
     "main.3de2f7d7.css.map": "/React-Portfolio/static/css/main.3de2f7d7.css.map",
-    "main.ee848df7.js.map": "/React-Portfolio/static/js/main.ee848df7.js.map"
+    "main.30104652.js.map": "/React-Portfolio/static/js/main.30104652.js.map"
   },
   "entrypoints": [
     "static/css/main.3de2f7d7.css",
-    "static/js/main.ee848df7.js"
+    "static/js/main.30104652.js"
   ]
 }
