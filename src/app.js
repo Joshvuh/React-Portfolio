@@ -7,7 +7,6 @@ import Contact from './components/contact';
 import Portfolio from './components/portfolio';
 import Resume from './components/resume';
 import './App.css'
-import 'https://kit.fontawesome.com/8056713976.js'
 
 function App() {
   return (
