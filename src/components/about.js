@@ -5,12 +5,11 @@ const About = () => {
     <div> 
     <div className='grid-x align-center align-middle' style={{height: '600px'}}>
     <div className='cell small-6'>
-        <div className='card'>
           <div className='card-section'>
           <div className='grid-x'>
                 <p className='cell small-8'> Hello! My name is Joshua Lemmond. I am a Full Stack Developer with frontend and backend experience. I am seeking a role that will utilize my current development experience, and will push me to continue learning and broadening my development skills.</p>
                 <div className='cell small-4' style={{textAlign: 'right'}}>
-                <img className='myImage' style={{height: 200, width: 190 }} src={require('../assets/elany-and-i.JPG')} alt='' />
+                <img className='myImage' src={require('../assets/elany-and-i.JPG')} alt='' />
                 </div>
             </div>
             <h3>Technologies I've used</h3>
@@ -47,7 +46,6 @@ const About = () => {
             </div>
             </div>
             </div>
-        </div>
     </div>
     </div>
     </div>
