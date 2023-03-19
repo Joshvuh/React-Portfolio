@@ -8,16 +8,16 @@ const Header = () => {
   <div class="top-bar-left"> <h3 style={{color: 'gray', fontWeight: 'bolder'}}>Joshua Lemmond</h3></div>
   <div class="top-bar-right">
   <ButtonGroup>
-    <Link to="/">
+    <Link to="React-Portfolio/">
       <Button>About</Button>
     </Link>
-    <Link to="/portfolio"> 
+    <Link to="React-Portfolio/portfolio"> 
       <Button>Portfolio</Button>
     </Link>
-    <Link to="/resume">
+    <Link to="React-Portfolio/resume">
     <Button>Resume</Button>
     </Link>
-    <Link to="/contact">
+    <Link to="React-Portfolio/contact">
     <Button>Contact</Button>
     </Link>
   </ButtonGroup>
