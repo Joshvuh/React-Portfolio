@@ -5,6 +5,19 @@ const Portfolio = () => {
         <div>
         <div className='grid-x'>
         <div className='cell small-6'>
+        <div className='card' style={{marginBottom: '50px'}}>
+          <div className='card-section'>
+            <h4>Dreamscape</h4>
+          </div>
+          <a href='http://dreamscape-vision-board.herokuapp.com/' target='_blank' rel='noreferrer'><img src={require('https://cdn.screencast.com/uploads/g000302LpSmog9xodiVYDYdJuZJIN/SNGOUT2083.png?sv=2021-08-06&st=2023-04-03T14%3A05%3A56Z&se=2023-04-04T14%3A05%3A56Z&sr=b&sp=r&sig=rZIMyygamx5DdMdDRRJiagwcPNEhEu8jnDjb7m4EdJ8%3D')}
+           alt=''/></a>
+          <div className='card-section'>
+            <p>Note taking app built using Express routes to create, read, and delete notes.</p>
+            <a href='https://github.com/Joshvuh/Dreamscape' target='_blank' rel='noreferrer'><i className='fa-brands fa-github'></i> Github Repo</a>
+          </div>
+        </div>
+        </div>
+        <div className='cell small-6'>
         <div className='card'>
           <div className='card-section'>
             <h4>ChatterHub</h4>
